@@ -1,0 +1,16 @@
+<h3 class="titulo">Insira as informações</h3>
+<form class="formul"#formTenis="ngForm">
+    <label>Modelo:</label>
+    <input matInput 
+    [(ngModel)]="tenis.modelo" name="Modelo" ><br/>
+    <label>Marca:</label>
+    <input matInput 
+    [(ngModel)]="tenis.marca" name="Marca"><br/>
+    <label>Tamanho:</label>
+    <input matInput 
+    [(ngModel)]="tenis.tamanho" name="Tamanho"><br/>
+    <label>Preço:</label>
+    <input matInput 
+    [(ngModel)]="tenis.preco" name="Preço"><br/>
+   <input type="submit" title ="Salvar" (click)= "salvar(tenis)"> 
+</form>

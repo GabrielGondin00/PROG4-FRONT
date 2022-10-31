@@ -1,0 +1,10 @@
+.tituloprincipal{
+    text-align: center;
+    color: crimson;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 2.5em;
+}
+.titulosecundario{
+    font-size: small;
+    text-align: center;
+}

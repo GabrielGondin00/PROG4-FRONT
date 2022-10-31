@@ -1,0 +1,10 @@
+<h3 class="sub1">SNKRS já cadastrados:</h3>
+<h5 class="testefonte">
+
+   <li *ngFor= "let tenis of tenis">
+    {{tenis.id}}-{{tenis.modelo}} 
+    <button [routerLink]= "['/tenis/editar',tenis.id]">Editar</button>
+    <button (click)= "confirmaRemocao(tenis)">Excluir</button>
+   </li>
+
+</h5>
